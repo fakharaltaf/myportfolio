@@ -1,0 +1,28 @@
+/* Transparent Navbar */
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+  transition: background-color 0.5s ease;   /* Smooth transition effect */
+}
+
+/* Change color on scroll */
+.transparent-navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.8); /* Light transparency */
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background: #e7e7e7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
