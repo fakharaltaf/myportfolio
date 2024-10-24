@@ -60,3 +60,27 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.navbar {
+    margin-bottom: 20px; /* Add space below navbar */
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px; /* Space between nav items */
+    font-weight: bold; /* Make text bold for better visibility */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase brand font size */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* Ensure consistent background */
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        padding-left: 20px; /* Add padding for large screens */
+    }
+}
+
